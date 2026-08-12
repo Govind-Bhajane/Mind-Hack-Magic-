@@ -1,0 +1,372 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8"><meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+
+«»
+
+  <title>Mind Hack Magic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;700&family=Marcellus&display=swap"
+    rel="stylesheet"
+  > 
+  <link rel="stylesheet" href="style.css">
+</head><body>  
+<header class="site-nav"><div class="nav-inner">
+
+  <a
+    href="#"
+    class="nav-brand"
+    data-nav-home
+  >
+    <span class="brand-glyph">🔮</span>
+
+    <span class="brand-text">
+      MIND HACK
+      <em>MAGIC</em>
+    </span>
+  </a>
+
+  <nav class="nav-links">
+
+    <a
+      href="#"
+      class="nav-link active"
+      data-target="landing"
+    >
+      Home
+    </a>
+
+    <a
+      href="#"
+      class="nav-link"
+      data-target="how-to-play"
+    >
+      How To Play
+    </a>
+
+    <a
+      href="#"
+      class="nav-link"
+      data-target="about-screen"
+    >
+      About
+    </a>
+
+  </nav>
+
+  <div class="nav-actions">
+
+    <button
+      class="icon-btn"
+      id="sound-toggle"
+      aria-label="Toggle sound"
+      aria-pressed="true"
+    >
+      <span class="sound-on">🔊</span>
+      <span
+        class="sound-off"
+        hidden
+      >
+        🔇
+      </span>
+    </button>
+
+    <button
+      class="hamburger"
+      id="hamburger-btn"
+      aria-label="Open menu"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+
+</div>
+
+  </header> <div
+    class="mobile-menu-overlay"
+    id="mobile-menu-overlay"
+  ></div>  <nav
+    class="mobile-menu"
+    id="mobile-menu"
+    aria-hidden="true"
+  ><a
+  href="#"
+  class="mobile-link"
+  data-target="landing"
+>
+  Home
+</a>
+
+<a
+  href="#"
+  class="mobile-link"
+  data-target="how-to-play"
+>
+  How To Play
+</a>
+
+<a
+  href="#"
+  class="mobile-link"
+  data-target="about-screen"
+>
+  About
+</a>
+
+  </nav> 
+  
+  <main>
+
+<section
+  class="screen active"
+  id="landing"
+>
+
+  <div class="landing-content">
+
+    <p class="eyebrow">
+      ✦ Welcome to the Portal ✦
+    </p>
+
+
+    <h1 class="hero-title">
+
+      MIND HACK
+
+      <span class="hero-title-magic">
+        MAGIC
+      </span>
+
+    </h1>
+
+
+    <p class="hero-tagline">
+      Can you unlock the secret <br> hidden inside your mind?
+    </p>
+
+      <input
+    type="text"
+    id="player-name"
+    class="name-input"
+    placeholder="Enter your name"
+    maxlength="30"
+    autocomplete="off"
+  ><br>
+    <button
+      class="btn-magic"
+      id="start-game-btn"
+    >
+
+      <span class="btn-shine"></span>
+
+      <span class="btn-label">
+        ✨ START GAME ✨
+      </span>
+
+    </button>
+
+
+    <p class="hero-prompt">
+      Are you ready to hack your mind?
+    </p>
+
+
+    <div class="scroll-hint">
+      ⌄
+    </div>
+
+  </div>
+
+</section>
+
+<section
+  class="screen"
+  id="how-to-play">
+  <div class="panel-wrap">
+
+    <p class="eyebrow">
+      ✦ The Ritual ✦
+    </p>
+
+    <h2 class="section-title">
+      🔮 HOW THE MAGIC WORKS
+    </h2>
+
+    <div class="how-cards">
+
+      <div class="glass-card float-card">
+
+        <div class="card-icon">
+          🧠
+        </div>
+
+        <h3>
+          THINK
+        </h3>
+        
+        <p>
+          Think of any number between 1 and 100.
+        </p>
+
+      </div>
+      <div
+        class="glass-card float-card"
+        style="--delay:0.6s">
+
+        <div class="card-icon">
+          ✖️
+        </div>
+
+        <h3>
+          CALCULATE
+        </h3>
+
+        <p>
+          Follow the simple mathematical instructions.
+        </p>
+
+      </div>
+
+      <div
+        class="glass-card float-card"
+        style="--delay:1.2s">
+
+        <div class="card-icon">
+          ➗
+        </div>
+
+        <h3>
+          FOLLOW
+        </h3>
+
+        <p>
+          Complete every step without revealing your number.
+        </p>
+      </div>
+
+      <div
+        class="glass-card float-card"
+        style="--delay:1.8s">
+
+        <div class="card-icon">
+          🪄
+        </div>
+
+        <h3>
+          DISCOVER
+        </h3>
+
+        <p>
+          Watch the magic reveal the final number.
+        </p>
+
+      </div>
+
+    </div>
+
+    <button
+      class="btn-magic btn-secondary"
+      data-target="landing" >
+      Back to Portal
+    </button>
+  </div>
+</section>
+
+<section
+  class="screen"
+  id="about-screen"
+>
+
+  <div class="panel-wrap narrow">
+
+    <p class="eyebrow">
+      ✦ The Grimoire ✦
+    </p>
+
+
+    <h2 class="section-title">
+      ABOUT THE MAGIC
+    </h2>
+
+    <div class="glass-card about-card">
+          <p>   🤠  CREATED BY :
+
+        <b>Govind Bhajane</b>
+
+A developer who enjoys turning simple ideas
+into interactive web experiences.
+
+Mind Hack Magic was created using HTML,
+CSS and JavaScript, combining mathematics,
+animation, sound and a magical interface.</P>
+<p>
+Mind Hack Magic is a simple mathematical
+mind trick designed to surprise you with
+an unexpected final number.
+
+Think of a number, follow the instructions,
+and let the magic reveal the result.
+
+No complicated rules. No special skills.
+Just a little thinking, a little math,
+and a touch of magic. ✨</p>
+
+      <p>⚙️ BUILT WITH : 
+
+• HTML5 • CSS3 • JavaScript
+• 🎨 UI • ✨ Animation • 🔊 Sound</p>
+
+     <p>🤔<b>• THINK • FOLLOW • REVEAL ✨</b></p>
+
+
+    <button
+      class="btn-magic btn-secondary"
+      data-target="landing"
+    >
+      Back to Portal
+    </button>
+
+  </div>
+
+</section>
+
+<section
+  class="screen"
+  id="game-screen"
+>
+
+  <div
+    class="stage"
+    id="stage"
+  >
+    <!--
+      Game content is inserted here by script.js
+    -->
+  </div>
+
+</section>
+
+  </main> 
+  <div
+    id="transition-veil"
+    aria-hidden="true"
+  ><div class="veil-glyph">
+  ✦
+</div>
+</div>
+
+  <div
+    id="sr-announce"
+    class="sr-only"
+    role="status"
+    aria-live="polite"
+  ></div>
+  <script src="script.js"></script></body>
+</html>
